@@ -1,0 +1,17 @@
+[
+  {
+    "id": "TEST-1-01",
+    "name": "",
+    "starLevel": 1
+  },
+  {
+    "id": "TEST-1-02",
+    "name": "Invalid Star Card",
+    "starLevel": 5
+  },
+  {
+    "id": "ZW-1-01",
+    "name": "Duplicate Test Card",
+    "starLevel": 1
+  }
+]

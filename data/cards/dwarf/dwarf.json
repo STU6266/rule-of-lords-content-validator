@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ZW-1-01",
+    "name": "Meisteraxt",
+    "starLevel": 1
+  },
+  {
+    "id": "ZW-1-02",
+    "name": "Runenschild",
+    "starLevel": 1
+  },
+  {
+    "id": "ZW-2-01",
+    "name": "Runenhammer",
+    "starLevel": 2
+  }
+]
