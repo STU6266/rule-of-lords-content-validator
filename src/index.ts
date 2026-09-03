@@ -26,20 +26,21 @@ async function loadCards(filePath: string): Promise<CardData[]> {
 
 // I use this class to keep the different card checks together.
 class CardValidator {
+    private idPattern = /^[A-Z]{2}-[0-2]-\d{2}$/;
     // Check the basic fields of one card and collect any errors I find.
     validateCard(card: CardData): string[] {
         const errors: string[] = [];
 
         if (!card.id) {
             errors.push("Missing id");
-        }
+        } else if (!this.idPattern.test(card.id)) {
+            errors.push("Invalid id format");
+        } else {
+            const idParts = card.id.split("-");
 
-        if (!card.name) {
-            errors.push("Missing name");
-        }
-
-        if (![0, 1, 2].includes(card.starLevel)) {
-            errors.push("Invalid star level");
+            if (Number(idParts[1]) !== card.starLevel) {
+                errors.push("Star level does not match id");
+            }
         }
 
         return errors;

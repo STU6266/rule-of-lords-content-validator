@@ -10,8 +10,18 @@
     "starLevel": 5
   },
   {
+    "id": "BAD-ID",
+    "name": "Bad ID Test",
+    "starLevel": 1
+  },
+  {
     "id": "ZW-1-01",
     "name": "Duplicate Test Card",
+    "starLevel": 1
+  },
+  {
+    "id": "ZW-2-05",
+    "name": "Wrong Star Match",
     "starLevel": 1
   }
 ]
