@@ -31,6 +31,14 @@ class CardValidator {
     validateCard(card: CardData): string[] {
         const errors: string[] = [];
 
+        if (!card.name || card.name.trim() === "") {
+            errors.push("Missing name");
+        }
+
+        if (![0, 1, 2].includes(card.starLevel)) {
+            errors.push("Invalid star level");
+        }
+
         if (!card.id) {
             errors.push("Missing id");
         } else if (!this.idPattern.test(card.id)) {
