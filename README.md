@@ -1,27 +1,23 @@
-# Overview
+# CSE 310 – Rule of Lords Projects
 
-I created a small Rule of Lords Content Validator in TypeScript. The program searches through folders for JSON card files, loads the cards, and checks them for simple problems. It can find missing names or IDs, invalid star levels, wrong ID formats, star levels that do not match the ID, and duplicate card IDs.
+This repository contains my projects for CSE 310.
 
-I wanted to build something small that could also be useful for my Rule of Lords project later. My main goal was to get more comfortable with TypeScript and learn how to work with classes, arrays, asynchronous functions, recursion, JSON files, and error handling in one program.
+## Module 1 – TypeScript
 
-The validator also gives a short summary in the terminal so I can quickly see how many cards were loaded, how many cards are valid, and what problems were found.
+**Boardgame Content Validator**
 
-[Software Demo Video]https://youtu.be/eyrUntsDchw
+The program reads sample Rule of Lords card data from JSON files and checks for problems such as missing names, invalid star levels, invalid IDs, and duplicate IDs.
 
-# Development Environment
+Folder:
 
-I used Visual Studio Code on Ubuntu to write and test the program. I also used the terminal, Git, and GitHub to manage and publish the project.
+`module-1-typescript-validator`
 
-The program is written in TypeScript and runs with Node.js. I used npm to manage the project and `tsx` to run the TypeScript file. I also used Node's built-in `fs/promises` library to read files asynchronously and `path` to work with folder and file paths.
+## Module 2 – SQL
 
-# Useful Websites
+**Rule of Lords SQLite Persistence Prototype**
 
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [Node.js File System Documentation](https://nodejs.org/api/fs.html)
-- [Node.js Path Documentation](https://nodejs.org/api/path.html)
+This module will focus on learning SQL and SQLite by creating a small persistence prototype for Rule of Lords.
 
-# Future Work
+Folder:
 
-- Add more card fields so the validator can check more of the real Rule of Lords card data.
-- Show which file a card error came from to make problems easier to find.
-- Add more automated tests for valid and invalid card data.
+`module-2-sqlite-persistence`
