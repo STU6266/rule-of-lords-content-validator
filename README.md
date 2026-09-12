@@ -6,7 +6,7 @@ I wanted to build something small that could also be useful for my Rule of Lords
 
 The validator also gives a short summary in the terminal so I can quickly see how many cards were loaded, how many cards are valid, and what problems were found.
 
-[Software Demo Video](VIDEO_LINK_HERE)
+[Software Demo Video]https://youtu.be/eyrUntsDchw
 
 # Development Environment
 
