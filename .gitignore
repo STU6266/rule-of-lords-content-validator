@@ -1,1 +1,5 @@
 node_modules/
+# Module 2 - .NET build files and local database
+module-2-sqlite-persistence/bin/
+module-2-sqlite-persistence/obj/
+module-2-sqlite-persistence/rule_of_lords.db
