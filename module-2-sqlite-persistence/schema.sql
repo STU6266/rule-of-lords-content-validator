@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS players (
     gold INTEGER NOT NULL DEFAULT 0 CHECK (gold >= 0),
     troops INTEGER NOT NULL DEFAULT 3 CHECK (troops >= 0),
 
+
     FOREIGN KEY (game_id) REFERENCES games(game_id),
     FOREIGN KEY (race_id) REFERENCES races(race_id)
 );

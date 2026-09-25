@@ -28,6 +28,7 @@ JOIN to combine information from the players, games, and races tables.
 
 # Development Environment
 
+
 I used Visual Studio Code on Ubuntu to write and test the program. I also used the terminal, Git, and GitHub to manage and publish the project.
 
 The program is written in C# and runs with .NET 10. I used SQLite for the relational database and the Microsoft.Data.Sqlite library to connect the C# program to the database.

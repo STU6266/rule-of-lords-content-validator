@@ -187,6 +187,7 @@ static void DeletePlayer(SqliteConnection connection)
         : "Player not found.");
 }
 
+
 static int ReadIntOrKeep(string label, int currentValue)
 {
     // Return the new number, or keep the old value when Enter is pressed.
