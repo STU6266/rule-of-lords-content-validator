@@ -6,7 +6,7 @@ I wanted to build something small that could also be useful for my Rule of Lords
 
 The program uses a simple console menu so I can work with the database without entering SQL commands directly.
 
-[Software Demo Video]https://youtu.be/eyrUntsDchw
+[Software Demo Video]: https://youtu.be/O9QlIq4MoEs
 
 # Relational Database
 

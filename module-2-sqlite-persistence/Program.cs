@@ -179,6 +179,7 @@ static void DeletePlayer(SqliteConnection connection)
     }
 
     using SqliteCommand command = new(
+        
         "DELETE FROM players WHERE player_id = @id;", connection);
     command.Parameters.AddWithValue("@id", playerId);
 
