@@ -3,3 +3,9 @@ node_modules/
 module-2-sqlite-persistence/bin/
 module-2-sqlite-persistence/obj/
 module-2-sqlite-persistence/rule_of_lords.db
+
+# Module 3 - .NET build files
+module-3-networking/Client/bin/
+module-3-networking/Client/obj/
+module-3-networking/Server/bin/
+module-3-networking/Server/obj/
